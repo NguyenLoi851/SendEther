@@ -25,19 +25,20 @@ Steps to make this project:
 10. npm init -y
 
 (Complete init install)
+
 11. Code for client
-11. npm install react-icons ethers 
-12. create components
+12. npm install react-icons ethers 
+13. create components
 
-13. Code for smart-contract
-14. npm install --save-dev hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
+14. Code for smart-contract
+15. npm install --save-dev hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
 
-15. npx hardhat
-16. Write contract in folder contract
-17. Rename file scripts/sample-script.js to scripts/deploy.js and change content
-18. Set up with Alchemy, copy http key
-19. Config file hardhat.config.js
-20. Compile contract: npx hardhat run scripts/deploy.js --network ropsten
-21. Copy address of contract and paste to file utils/constants.js
-22. Copy file abi to client/utils
-23. Write Context folder
+16. npx hardhat
+17. Write contract in folder contract
+18. Rename file scripts/sample-script.js to scripts/deploy.js and change content
+19. Set up with Alchemy, copy http key
+20. Config file hardhat.config.js
+21. Compile contract: npx hardhat run scripts/deploy.js --network ropsten
+22. Copy address of contract and paste to file utils/constants.js
+23. Copy file abi to client/utils
+24. Write Context folder
