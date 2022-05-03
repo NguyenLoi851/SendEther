@@ -4,9 +4,13 @@ Steps to make this project:
 1. mkdir client && mkdir smart_contract
 2. cd client
 3. npm init vite@latest 
+
 3.1. Project name: ./
+
 3.2. Package name: (whatever you like)
-3.3. Framework: react
+
+3.3. Other: react
+
 4. npm install
 5. npm run dev
 (Open http://localhost:3000/ to see front-end)
