@@ -1,5 +1,7 @@
 # SendEther
 
+Project from Youtube: https://www.youtube.com/watch?v=Wn_Kb3MR_cU
+
 Steps to make this project:
 1. mkdir client && mkdir smart_contract
 2. cd client
@@ -21,3 +23,4 @@ Steps to make this project:
 
 9. cd .. && cd smart_contract
 10. npm init -y
+11. create components
