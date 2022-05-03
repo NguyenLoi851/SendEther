@@ -24,3 +24,4 @@ Steps to make this project:
 9. cd .. && cd smart_contract
 10. npm init -y
 11. create components
+12. npm install react-icons ethers 
