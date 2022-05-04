@@ -2,6 +2,11 @@
 
 Project from Youtube: https://www.youtube.com/watch?v=Wn_Kb3MR_cU
 
+Tools, frameworks:
+1. Vate (for React)
+2. Tailwindcss (for CSS)
+3. Hardhat, Alchemy (for smart contract)
+
 Steps to make this project:
 1. mkdir client && mkdir smart_contract
 2. cd client
