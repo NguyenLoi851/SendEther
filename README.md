@@ -50,3 +50,5 @@ Steps to make this project:
 23. Copy address of contract and paste to file utils/constants.js
 24. Copy file abi to client/utils
 25. Write Context folder
+
+**Note**: Hardhat command line in folder smart-contract
