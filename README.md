@@ -34,10 +34,11 @@ Steps to make this project:
 
 15. npx hardhat
 16. Write contract in folder contract
-17. Rename file scripts/sample-script.js to scripts/deploy.js and change content
-18. Set up with Alchemy, copy http key
-19. Config file hardhat.config.js
-20. Compile contract: npx hardhat run scripts/deploy.js --network ropsten
-21. Copy address of contract and paste to file utils/constants.js
-22. Copy file abi to client/utils
-23. Write Context folder
+17. Test contract
+18. Rename file scripts/sample-script.js to scripts/deploy.js and change content
+19. Set up with Alchemy, copy http key
+20. Config file hardhat.config.js
+21. Compile contract: npx hardhat run scripts/deploy.js --network ropsten
+22. Copy address of contract and paste to file utils/constants.js
+23. Copy file abi to client/utils
+24. Write Context folder
