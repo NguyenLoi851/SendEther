@@ -35,10 +35,12 @@ Steps to make this project:
 
 16. npx hardhat
 17. Write contract in folder contract
-18. Test contract
+18. Test contract 
+(**Bug**: declare variances before beforeEach() function)
 19. Rename file scripts/sample-script.js to scripts/deploy.js and change content
 20. Set up with Alchemy, copy http key
 21. Config file hardhat.config.js (create file .secret)
+(**Bug**: not put private key(32 bytes) in .secret file in ' ' or " ")
 22. Compile contract: npx hardhat run scripts/deploy.js --network ropsten
 23. Copy address of contract and paste to file utils/constants.js
 24. Copy file abi to client/utils
