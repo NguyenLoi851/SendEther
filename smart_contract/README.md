@@ -8,8 +8,8 @@ Try running some of the following tasks:
 npx hardhat accounts
 npx hardhat compile
 npx hardhat clean
-npx hardhat test
-npx hardhat node
+npx hardhat test 
+npx hardhat node >> list of local accounts, which is supplied by hardhat
 node scripts/sample-script.js
 npx hardhat help
 ```
